@@ -1,1 +1,20 @@
+📄 Project Description:
+This project demonstrates the control of a DC motor’s speed and rotation direction using a combination of a 555 Timer IC and an H-Bridge circuit.
+The 555 Timer is configured in astable mode to generate a PWM (Pulse Width Modulated) signal. This PWM signal controls the motor’s speed by varying the duty cycle, thus adjusting the average voltage supplied to the motor.
+For direction control, an H-Bridge circuit is integrated, allowing the motor to rotate clockwise or counterclockwise depending on the logic inputs. The combination enables full control over the motor’s behavior using basic components without any microcontroller.
+
+⚙️ Key Features:
+Speed control via PWM from 555 timer
+Direction control using H-Bridge
+Cost-effective and beginner-friendly
+No microcontroller required
+
+🧰 Components Used:
+555 Timer IC
+L293D or custom H-Bridge (transistor-based)
+DC Motor
+Potentiometer (for duty cycle control)
+Power supply
+Capacitors, resistors, and other passive components
+
 
